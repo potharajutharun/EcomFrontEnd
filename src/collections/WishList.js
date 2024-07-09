@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Card, Button } from 'react-bootstrap';
-import { IoMdStar } from "react-icons/io";
+
 import { MdDeleteForever } from "react-icons/md";
 import { remove } from '../store/wishlistSlice.js';
 import { add } from '../store/cartSlice.js';
