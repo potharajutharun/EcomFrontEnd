@@ -1,0 +1,62 @@
+
+
+.product-img-small {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .card {
+    position: relative;
+    height: 100%;
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); 
+  }
+  
+  
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px; 
+  }
+  
+  .wishlist-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem; 
+    cursor: pointer;
+  }
+  
+  .wishlist-btn:hover {
+    color: #dc3545; 
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-text {
+    font-size: 0.9rem; 
+    margin-bottom: 1rem; 
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 20px; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      width: 100%; 
+    }
+  }
+  

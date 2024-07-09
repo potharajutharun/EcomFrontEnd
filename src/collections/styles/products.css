@@ -1,0 +1,45 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+  }
+  
+  
+  .product-image {
+    height: 15vh;
+    width: auto;
+    max-width: 100%;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wishlist {
+    position: relative;
+    right: 0.4rem;
+    bottom: 0.2rem;
+    border: none;
+    
+  }
+  .wishlist button {
+    border: none;
+  }
+  .wishlist button:hover {
+    border: none;
+   
+  }

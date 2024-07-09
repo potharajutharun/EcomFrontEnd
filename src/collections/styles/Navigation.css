@@ -1,0 +1,37 @@
+
+  
+  .search-container {
+    width: 32rem; 
+    background-color: rgba(151, 145, 145, 0.267);
+    border-radius: 20px;
+    margin-left: 2rem;
+  }
+  
+  .search-box {
+    width: 34rem; 
+    background-color: rgba(231, 226, 226, 0.936);
+    border: none;
+    outline: none;
+  }
+  
+  .no-focus:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: rgba(231, 226, 226, 0.936);
+  }
+  
+  .search-box:hover {
+    background-color:rgba(231, 226, 226, 0.936);
+  }
+  
+  @media screen and (width: 480px) {
+    .search-container {
+     margin: 0px;
+    }
+  
+    .search-box {
+   
+      margin: 0px;
+     
+    }
+  }

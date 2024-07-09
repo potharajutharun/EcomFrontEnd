@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.login-form {
+    background: linear-gradient(45deg, rgb(107, 146, 171), rgb(211, 125, 182));
+}
+
+.login-div {
+    width: 30vw;
+}
+.div-input {
+    width: 20vw;
+    
+}
+@media screen and (max-width:480px) {
+    .login-div {
+        width: 80vw;
+        
+    }
+    .div-input {
+        width: 60vw;
+        
+        
+    }
+    
+}
