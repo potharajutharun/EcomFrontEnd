@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { IoMdStar } from "react-icons/io";
+
 import './styles/products.css';
 import { useDispatch, useSelector } from "react-redux";
 import { add } from "../store/cartSlice.js";
